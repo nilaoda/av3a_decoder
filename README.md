@@ -7,12 +7,13 @@ AVS3-P3 / Audio Vivid Decoder
 
 # Steps
 
-## 1. Extract av3a audio from MPEG2TS file (**Optional**)
+## 1. Extract av3a audio from MPEG2-TS file (**Optional**)
 
 You can use `es_extractor.py` to do that:
 ```
 python es_extractor.py sample.ts sample.av3a 0x101
 ```
+Note: You can use mediainfo to find av3a track pid, maybe `0x101` or `0x1100`
 
 ## 2. Decode av3a to PCM
 ```
@@ -25,7 +26,7 @@ python av3a_decoder.py sample.av3a sample.wav
 ```
 ffmpeg -i sample.wav -filter "channelmap=0|1|2|3|4|5|6|7|8|9:FL+FR+FC+LFE+SL+SR+TFL+TFR+TBL+TBR" sample_layout.wav
 ```
-### Or encode to 448 kbps 5.1(side) AC3
+### You can encode wav to 448 kbps 5.1(side) AC3
 ```
 ffmpeg -i sample.wav -filter "channelmap=0|1|2|3|4|5:FL+FR+FC+LFE+SL+SR" -b:a 448k sample_layout.ac3
 ```
