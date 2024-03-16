@@ -1,0 +1,388 @@
+(             libc.so[0xCBBEB000])[08 B5       ]0x0000E2F8:	PUSH	{R3, LR}	;(SP=0x100FEAA8 R3=0x00000000 LR=0x03000000 )
+(             libc.so[0xCBBEB000])[00 22       ]0x0000E2FA:	MOVS	R2, #0
+(             libc.so[0xCBBEB000])[1D EE 70 3F ]0x0000E2FC:	MRC	P15, #0, R3, C13, C0, #3	;(R3=0x00000000 )
+(             libc.so[0xCBBEB000])[D8 68       ]0x0000E300:	LDR	R0, [R3, #0XC]	;(R3=0x02000000 )
+(             libc.so[0xCBBEB000])[DA 60       ]0x0000E302:	STR	R2, [R3, #0XC]	;(R2=0x00000000 R3=0x02000000 )
+(             libc.so[0xCBBEB000])[03 F0 96 FF ]0x0000E304:	BL	#0XCBBFD234	;(PC=0xCBBF9304 )
+(             libc.so[0xCBBEB000])[16 4A       ]0x00012234:	LDR	R2, [PC, #0X58]	;(PC=0xCBBFD234 )
+(             libc.so[0xCBBEB000])[38 B5       ]0x00012236:	PUSH	{R3, R4, R5, LR}	;(SP=0x100FEAA0 R3=0x02000000 R4=0x00000000 R5=0x00000000 LR=0xCBBF9309 )
+(             libc.so[0xCBBEB000])[7A 44       ]0x00012238:	ADD	R2, PC	;(R2=0x0003C14C PC=0xCBBFD238 )
+(             libc.so[0xCBBEB000])[83 68       ]0x0001223A:	LDR	R3, [R0, #8]	;(R0=0x100FEAA8 )
+(             libc.so[0xCBBEB000])[04 46       ]0x0001223C:	MOV	R4, R0	;(R0=0x100FEAA8 )
+(             libc.so[0xCBBEB000])[15 4D       ]0x0001223E:	LDR	R5, [PC, #0X54]	;(PC=0xCBBFD23E )
+(             libc.so[0xCBBEB000])[13 60       ]0x00012240:	STR	R3, [R2]	;(R3=0x100FEAC4 R2=0xCBC39388 )
+(             libc.so[0xCBBEB000])[02 F0 01 F9 ]0x00012242:	BL	#0XCBBFF448	;(PC=0xCBBFD242 )
+(             libc.so[0xCBBEB000])[1D EE 70 0F ]0x00014448:	MRC	P15, #0, R0, C13, C0, #3 ; __errno	;(R0=0x100FEAA8 )
+(             libc.so[0xCBBEB000])[08 30       ]0x0001444C:	ADDS	R0, #8	;(R0=0x02000000 )
+(             libc.so[0xCBBEB000])[70 47       ]0x0001444E:	BX	LR	;(LR=0xCBBFD247 )
+(             libc.so[0xCBBEB000])[00 21       ]0x00012246:	MOVS	R1, #0
+(             libc.so[0xCBBEB000])[7D 44       ]0x00012248:	ADD	R5, PC	;(R5=0x00037D8C PC=0xCBBFD248 )
+(             libc.so[0xCBBEB000])[E2 68       ]0x0001224A:	LDR	R2, [R4, #0XC]	;(R4=0x100FEAA8 )
+(             libc.so[0xCBBEB000])[01 60       ]0x0001224C:	STR	R1, [R0]	;(R1=0x00000000 R0=0x02000008 )
+(             libc.so[0xCBBEB000])[12 48       ]0x0001224E:	LDR	R0, [PC, #0X48]	;(PC=0xCBBFD24E )
+(             libc.so[0xCBBEB000])[61 68       ]0x00012250:	LDR	R1, [R4, #4]	;(R4=0x100FEAA8 )
+(             libc.so[0xCBBEB000])[2B 58       ]0x00012252:	LDR	R3, [R5, R0]	;(R5=0xCBC34FD8 R0=0xFFFFFF6C )
+(             libc.so[0xCBBEB000])[1A 60       ]0x00012254:	STR	R2, [R3]	;(R2=0x100FEAF8 R3=0xCBC3937C )
+(             libc.so[0xCBBEB000])[08 68       ]0x00012256:	LDR	R0, [R1]	;(R1=0x100FEABC )
+(             libc.so[0xCBBEB000])[08 B9       ]0x00012258:	CBNZ	R0, #0XCBBFD25E	;(R0=0x100FEFEE )
+(             libc.so[0xCBBEB000])[10 4B       ]0x0001225E:	LDR	R3, [PC, #0X40]	;(PC=0xCBBFD25E )
+(             libc.so[0xCBBEB000])[10 4A       ]0x00012260:	LDR	R2, [PC, #0X40]	;(PC=0xCBBFD260 )
+(             libc.so[0xCBBEB000])[7B 44       ]0x00012262:	ADD	R3, PC	;(R3=0x0003C11A PC=0xCBBFD262 )
+(             libc.so[0xCBBEB000])[18 60       ]0x00012264:	STR	R0, [R3]	;(R0=0x100FEFEE R3=0xCBC39380 )
+(             libc.so[0xCBBEB000])[20 69       ]0x00012266:	LDR	R0, [R4, #0X10]	;(R4=0x100FEAA8 )
+(             libc.so[0xCBBEB000])[A9 58       ]0x00012268:	LDR	R1, [R5, R2]	;(R5=0xCBC34FD8 R2=0xFFFFFF70 )
+(             libc.so[0xCBBEB000])[08 60       ]0x0001226A:	STR	R0, [R1]	;(R0=0x00000000 R1=0xCBC39390 )
+(             libc.so[0xCBBEB000])[19 20       ]0x0001226C:	MOVS	R0, #0X19
+(             libc.so[0xCBBEB000])[FF F7 93 FF ]0x0001226E:	BL	#0XCBBFD198	;(PC=0xCBBFD26E )
+(             libc.so[0xCBBEB000])[06 4B       ]0x00012198:	LDR	R3, [PC, #0X18] ; getauxval	;(PC=0xCBBFD198 )
+(             libc.so[0xCBBEB000])[7B 44       ]0x0001219A:	ADD	R3, PC	;(R3=0x0003C1DE PC=0xCBBFD19A )
+(             libc.so[0xCBBEB000])[19 68       ]0x0001219C:	LDR	R1, [R3]	;(R3=0xCBC3937C )
+(             libc.so[0xCBBEB000])[04 E0       ]0x0001219E:	B	#0XCBBFD1AA
+(             libc.so[0xCBBEB000])[0A 68       ]0x000121AA:	LDR	R2, [R1]	;(R1=0x100FEAF8 )
+(             libc.so[0xCBBEB000])[00 2A       ]0x000121AC:	CMP	R2, #0	;(R2=0x00000019 )
+(             libc.so[0xCBBEB000])[F7 D1       ]0x000121AE:	BNE	#0XCBBFD1A0
+(             libc.so[0xCBBEB000])[82 42       ]0x000121A0:	CMP	R2, R0	;(R2=0x00000019 R0=0x00000019 )
+(             libc.so[0xCBBEB000])[01 D1       ]0x000121A2:	BNE	#0XCBBFD1A8
+(             libc.so[0xCBBEB000])[48 68       ]0x000121A4:	LDR	R0, [R1, #4]	;(R1=0x100FEAF8 )
+(             libc.so[0xCBBEB000])[70 47       ]0x000121A6:	BX	LR	;(LR=0xCBBFD273 )
+(             libc.so[0xCBBEB000])[0D 4B       ]0x00012272:	LDR	R3, [PC, #0X34]	;(PC=0xCBBFD272 )
+(             libc.so[0xCBBEB000])[7B 44       ]0x00012274:	ADD	R3, PC	;(R3=0x0003C10C PC=0xCBBFD274 )
+(             libc.so[0xCBBEB000])[02 68       ]0x00012276:	LDR	R2, [R0]	;(R0=0x100FEFFC )
+(             libc.so[0xCBBEB000])[1A 60       ]0x00012278:	STR	R2, [R3]	;(R2=0x00001000 R3=0xCBC39384 )
+(             libc.so[0xCBBEB000])[00 F0 51 FE ]0x0001227A:	BL	#0XCBBFDF20	;(PC=0xCBBFD27A )
+(             libc.so[0xCBBEB000])[1D EE 70 3F ]0x00012F20:	MRC	P15, #0, R3, C13, C0, #3 ; __get_thread	;(R3=0xCBC39384 )
+(             libc.so[0xCBBEB000])[58 68       ]0x00012F24:	LDR	R0, [R3, #4]	;(R3=0x02000000 )
+(             libc.so[0xCBBEB000])[70 47       ]0x00012F26:	BX	LR	;(LR=0xCBBFD27F )
+(             libc.so[0xCBBEB000])[00 22       ]0x0001227E:	MOVS	R2, #0
+(             libc.so[0xCBBEB000])[80 F8 24 20 ]0x00012280:	STRB.W	R2, [R0, #0X24]	;(R2=0x00000000 R0=0x100FF000 )
+(             libc.so[0xCBBEB000])[00 F0 2C FE ]0x00012284:	BL	#0XCBBFDEE0	;(PC=0xCBBFD284 )
+(             libc.so[0xCBBEB000])[10 B5       ]0x00012EE0:	PUSH	{R4, LR} ; _pthread_internal_add	;(SP=0x100FEA90 R4=0x100FEAA8 LR=0xCBBFD289 )
+(             libc.so[0xCBBEB000])[04 46       ]0x00012EE2:	MOV	R4, R0	;(R0=0x100FF000 )
+(             libc.so[0xCBBEB000])[0A 48       ]0x00012EE4:	LDR	R0, [PC, #0X28]	;(PC=0xCBBFDEE4 )
+(             libc.so[0xCBBEB000])[78 44       ]0x00012EE6:	ADD	R0, PC	;(R0=0x0003B4B6 PC=0xCBBFDEE6 )
+(             libc.so[0xCBBEB000])[FB F7 78 EC ]0x00012EE8:	BLX	#0XCBBF97DC	;(PC=0xCBBFDEE8 )
+(             libc.so[0xCBBEB000])[90 FF FF EA ]0x0000E7DC:	B	#0XCBBF9624 ; pthread_mutex_lock	;(PC=0xCBBF97DC )
+(             libc.so[0xCBBEB000])[F0 41 2D E9 ]0x0000E624:	PUSH	{R4, R5, R6, R7, R8, LR}	;(SP=0x100FEA88 R4=0x100FF000 R5=0xCBC34FD8 R6=0x00000000 R7=0x00000000 R8=0x00000000 LR=0xCBBFDEED )
+(             libc.so[0xCBBEB000])[00 40 50 E2 ]0x0000E628:	SUBS	R4, R0, #0	;(R0=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[1B 00 00 0A ]0x0000E62C:	BEQ	#0XCBBF96A0	;(PC=0xCBBF962C )
+(             libc.so[0xCBBEB000])[00 50 94 E5 ]0x0000E630:	LDR	R5, [R4]	;(R4=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[03 79 15 E2 ]0x0000E634:	ANDS	R7, R5, #0XC000	;(R5=0x00000000 )
+(             libc.so[0xCBBEB000])[02 6A 05 E2 ]0x0000E638:	AND	R6, R5, #0X2000	;(R5=0x00000000 )
+(             libc.so[0xCBBEB000])[19 00 00 1A ]0x0000E63C:	BNE	#0XCBBF96A8	;(PC=0xCBBF963C )
+(             libc.so[0xCBBEB000])[01 00 86 E3 ]0x0000E640:	ORR	R0, R6, #1	;(R6=0x00000000 )
+(             libc.so[0xCBBEB000])[9F 3F 94 E1 ]0x0000E644:	LDREX	R3, [R4]	;(R4=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[00 10 A0 E3 ]0x0000E648:	MOV	R1, #0
+(             libc.so[0xCBBEB000])[06 00 33 E1 ]0x0000E64C:	TEQ	R3, R6	;(R3=0x00000000 R6=0x00000000 )
+(             libc.so[0xCBBEB000])[90 1F 84 01 ]0x0000E650:	STREXEQ	R1, R0, [R4]	;(R0=0x00000001 R4=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[00 00 51 E3 ]0x0000E654:	CMP	R1, #0	;(R1=0x00000000 )
+(             libc.so[0xCBBEB000])[F9 FF FF 1A ]0x0000E658:	BNE	#0XCBBF9644	;(PC=0xCBBF9658 )
+(             libc.so[0xCBBEB000])[03 00 56 E1 ]0x0000E65C:	CMP	R6, R3	;(R6=0x00000000 R3=0x00000000 )
+(             libc.so[0xCBBEB000])[02 50 86 13 ]0x0000E660:	ORRNE	R5, R6, #2	;(R6=0x00000000 )
+(             libc.so[0xCBBEB000])[01 00 00 1A ]0x0000E664:	BNE	#0XCBBF9670	;(PC=0xCBBF9664 )
+(             libc.so[0xCBBEB000])[09 00 00 EA ]0x0000E668:	B	#0XCBBF9694	;(PC=0xCBBF9668 )
+(             libc.so[0xCBBEB000])[5F F0 7F F5 ]0x0000E694:	DMB	SY
+(             libc.so[0xCBBEB000])[00 00 A0 E3 ]0x0000E698:	MOV	R0, #0
+(             libc.so[0xCBBEB000])[F0 81 BD E8 ]0x0000E69C:	POP	{R4, R5, R6, R7, R8, PC}	;(SP=0x100FEA70 )
+(             libc.so[0xCBBEB000])[09 4B       ]0x00012EEC:	LDR	R3, [PC, #0X24]	;(PC=0xCBBFDEEC )
+(             libc.so[0xCBBEB000])[00 22       ]0x00012EEE:	MOVS	R2, #0
+(             libc.so[0xCBBEB000])[62 60       ]0x00012EF0:	STR	R2, [R4, #4]	;(R2=0x00000000 R4=0x100FF000 )
+(             libc.so[0xCBBEB000])[7B 44       ]0x00012EF2:	ADD	R3, PC	;(R3=0x0003B4A6 PC=0xCBBFDEF2 )
+(             libc.so[0xCBBEB000])[18 68       ]0x00012EF4:	LDR	R0, [R3]	;(R3=0xCBC3939C )
+(             libc.so[0xCBBEB000])[20 60       ]0x00012EF6:	STR	R0, [R4]	;(R0=0x00000000 R4=0x100FF000 )
+(             libc.so[0xCBBEB000])[00 B1       ]0x00012EF8:	CBZ	R0, #0XCBBFDEFC	;(R0=0x00000000 )
+(             libc.so[0xCBBEB000])[06 49       ]0x00012EFC:	LDR	R1, [PC, #0X18]	;(PC=0xCBBFDEFC )
+(             libc.so[0xCBBEB000])[07 48       ]0x00012EFE:	LDR	R0, [PC, #0X1C]	;(PC=0xCBBFDEFE )
+(             libc.so[0xCBBEB000])[79 44       ]0x00012F00:	ADD	R1, PC	;(R1=0x0003B498 PC=0xCBBFDF00 )
+(             libc.so[0xCBBEB000])[78 44       ]0x00012F02:	ADD	R0, PC	;(R0=0x0003B49A PC=0xCBBFDF02 )
+(             libc.so[0xCBBEB000])[0C 60       ]0x00012F04:	STR	R4, [R1]	;(R4=0x100FF000 R1=0xCBC3939C )
+(             libc.so[0xCBBEB000])[BD E8 10 40 ]0x00012F06:	POP.W	{R4, LR}	;(SP=0x100FEA88 )
+(             libc.so[0xCBBEB000])[2A F0 E7 BA ]0x00012F0A:	B.W	#0XCBC284DC
+(             libc.so[0xCBBEB000])[78 47       ]0x0003D4DC:	BX	PC	;(PC=0xCBC284DC )
+(             libc.so[0xCBBEB000])[00 C0 9F E5 ]0x0003D4E0:	LDR	IP, [PC]	;(PC=0xCBC284E0 )
+(             libc.so[0xCBBEB000])[0F F0 8C E0 ]0x0003D4E4:	ADD	PC, IP, PC	;(IP=0xFFFD13F4 PC=0xCBC284E4 )
+(             libc.so[0xCBBEB000])[BE FF FF EA ]0x0000E8E0:	B	#0XCBBF97E0 ; pthread_mutex_unlock	;(PC=0xCBBF98E0 )
+(             libc.so[0xCBBEB000])[70 40 2D E9 ]0x0000E7E0:	PUSH	{R4, R5, R6, LR}	;(SP=0x100FEA90 R4=0x100FEAA8 R5=0xCBC34FD8 R6=0x00000000 LR=0xCBBFD289 )
+(             libc.so[0xCBBEB000])[00 40 50 E2 ]0x0000E7E4:	SUBS	R4, R0, #0	;(R0=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[08 D0 4D E2 ]0x0000E7E8:	SUB	SP, SP, #8	;(SP=0x100FEA80 )
+(             libc.so[0xCBBEB000])[2B 00 00 0A ]0x0000E7EC:	BEQ	#0XCBBF98A0	;(PC=0xCBBF97EC )
+(             libc.so[0xCBBEB000])[00 50 94 E5 ]0x0000E7F0:	LDR	R5, [R4]	;(R4=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[03 69 15 E2 ]0x0000E7F4:	ANDS	R6, R5, #0XC000	;(R5=0x00000001 )
+(             libc.so[0xCBBEB000])[02 1A 05 E2 ]0x0000E7F8:	AND	R1, R5, #0X2000	;(R5=0x00000001 )
+(             libc.so[0xCBBEB000])[11 00 00 1A ]0x0000E7FC:	BNE	#0XCBBF9848	;(PC=0xCBBF97FC )
+(             libc.so[0xCBBEB000])[5F F0 7F F5 ]0x0000E800:	DMB	SY
+(             libc.so[0xCBBEB000])[9F 2F 94 E1 ]0x0000E804:	LDREX	R2, [R4]	;(R4=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[01 30 42 E2 ]0x0000E808:	SUB	R3, R2, #1	;(R2=0x00000001 )
+(             libc.so[0xCBBEB000])[93 5F 84 E1 ]0x0000E80C:	STREX	R5, R3, [R4]	;(R3=0x00000000 R4=0xCBC393A0 )
+(             libc.so[0xCBBEB000])[00 00 55 E3 ]0x0000E810:	CMP	R5, #0	;(R5=0x00000000 )
+(             libc.so[0xCBBEB000])[FA FF FF 1A ]0x0000E814:	BNE	#0XCBBF9804	;(PC=0xCBBF9814 )
+(             libc.so[0xCBBEB000])[01 C0 81 E3 ]0x0000E818:	ORR	IP, R1, #1	;(R1=0x00000000 )
+(             libc.so[0xCBBEB000])[0C 00 52 E1 ]0x0000E81C:	CMP	R2, IP	;(R2=0x00000001 IP=0x00000001 )
+(             libc.so[0xCBBEB000])[06 00 00 0A ]0x0000E820:	BEQ	#0XCBBF9840	;(PC=0xCBBF9820 )
+(             libc.so[0xCBBEB000])[00 00 A0 E3 ]0x0000E840:	MOV	R0, #0
+(             libc.so[0xCBBEB000])[FB FF FF EA ]0x0000E844:	B	#0XCBBF9838	;(PC=0xCBBF9844 )
+(             libc.so[0xCBBEB000])[08 D0 8D E2 ]0x0000E838:	ADD	SP, SP, #8	;(SP=0x100FEA78 )
+(             libc.so[0xCBBEB000])[70 80 BD E8 ]0x0000E83C:	POP	{R4, R5, R6, PC}	;(SP=0x100FEA80 )
+(             libc.so[0xCBBEB000])[BD E8 38 40 ]0x00012288:	POP.W	{R3, R4, R5, LR}	;(SP=0x100FEA90 )
+(             libc.so[0xCBBEB000])[1C F0 1A B9 ]0x0001228C:	B.W	#0XCBC194C4
+(             libc.so[0xCBBEB000])[3C 48       ]0x0002E4C4:	LDR	R0, [PC, #0XF0] ; __system_properties_init	;(PC=0xCBC194C4 )
+(             libc.so[0xCBBEB000])[4F F4 08 21 ]0x0002E4C6:	MOV.W	R1, #0X88000
+(             libc.so[0xCBBEB000])[F0 B5       ]0x0002E4CA:	PUSH	{R4, R5, R6, R7, LR}	;(SP=0x100FEAA0 R4=0x00000000 R5=0x00000000 R6=0x00000000 R7=0x00000000 LR=0xCBBF9309 )
+(             libc.so[0xCBBEB000])[78 44       ]0x0002E4CC:	ADD	R0, PC	;(R0=0x0001BE14 PC=0xCBC194CC )
+(             libc.so[0xCBBEB000])[9D B0       ]0x0002E4CE:	SUB	SP, #0X74	;(SP=0x100FEA8C )
+(             libc.so[0xCBBEB000])[3A 4C       ]0x0002E4D0:	LDR	R4, [PC, #0XE8]	;(PC=0xCBC194D0 )
+(             libc.so[0xCBBEB000])[FF F7 37 F9 ]0x0002E4D2:	BL	#0XCBC18744	;(PC=0xCBC194D2 )
+(             libc.so[0xCBBEB000])[0E B4       ]0x0002D744:	PUSH	{R1, R2, R3} ; open	;(SP=0x100FEA18 R1=0x00088000 R2=0x00000001 R3=0x02000000 )
+(             libc.so[0xCBBEB000])[03 B5       ]0x0002D746:	PUSH	{R0, R1, LR}	;(SP=0x100FEA0C R0=0xCBC352E4 R1=0x00088000 LR=0xCBC194D7 )
+(             libc.so[0xCBBEB000])[03 9A       ]0x0002D748:	LDR	R2, [SP, #0XC]	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[42 F4 00 31 ]0x0002D74A:	ORR	R1, R2, #0X20000	;(R2=0x00088000 )
+(             libc.so[0xCBBEB000])[12 F0 40 02 ]0x0002D74E:	ANDS	R2, R2, #0X40	;(R2=0x00088000 )
+(             libc.so[0xCBBEB000])[03 D0       ]0x0002D752:	BEQ	#0XCBC1875C
+(             libc.so[0xCBBEB000])[F2 F7 F6 ED ]0x0002D75C:	BLX	#0XCBC0B34C	;(PC=0xCBC1875C )
+(             libc.so[0xCBBEB000])[07 C0 A0 E1 ]0x0002034C:	MOV	IP, R7 ; __open	;(R7=0x00000000 )
+(             libc.so[0xCBBEB000])[05 70 A0 E3 ]0x00020350:	MOV	R7, #5
+(             libc.so[0xCBBEB000])[00 00 00 EF ]0x00020354:	SVC	#0	;(PC=0xCBC0B354 )
+(             libc.so[0xCBBEB000])[0C 70 A0 E1 ]0x00020358:	MOV	R7, IP	;(IP=0x00000000 )
+(             libc.so[0xCBBEB000])[01 0A 70 E3 ]0x0002035C:	CMN	R0, #0X1000	;(R0=0x0000000A )
+(             libc.so[0xCBBEB000])[1E FF 2F 91 ]0x00020360:	BXLS	LR
+(             libc.so[0xCBBEB000])[BD E8 0C 40 ]0x0002D760:	POP.W	{R2, R3, LR}	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[03 B0       ]0x0002D764:	ADD	SP, #0XC	;(SP=0x100FEA0C )
+(             libc.so[0xCBBEB000])[70 47       ]0x0002D766:	BX	LR	;(LR=0xCBC194D7 )
+(             libc.so[0xCBBEB000])[7C 44       ]0x0002E4D6:	ADD	R4, PC	;(R4=0x0001BAFE PC=0xCBC194D6 )
+(             libc.so[0xCBBEB000])[05 1E       ]0x0002E4D8:	SUBS	R5, R0, #0	;(R0=0x0000000A )
+(             libc.so[0xCBBEB000])[5D DB       ]0x0002E4DA:	BLT	#0XCBC19598
+(             libc.so[0xCBBEB000])[02 21       ]0x0002E4DC:	MOVS	R1, #2
+(             libc.so[0xCBBEB000])[01 22       ]0x0002E4DE:	MOVS	R2, #1
+(             libc.so[0xCBBEB000])[FD F7 86 FB ]0x0002E4E0:	BL	#0XCBC16BF0	;(PC=0xCBC194E0 )
+(             libc.so[0xCBBEB000])[0E B4       ]0x0002BBF0:	PUSH	{R1, R2, R3} ; fcntl	;(SP=0x100FEA18 R1=0x00000002 R2=0x00000001 R3=0x00088000 )
+(             libc.so[0xCBBEB000])[03 B5       ]0x0002BBF2:	PUSH	{R0, R1, LR}	;(SP=0x100FEA0C R0=0x0000000A R1=0x00000002 LR=0xCBC194E5 )
+(             libc.so[0xCBBEB000])[03 AB       ]0x0002BBF4:	ADD	R3, SP, #0XC	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[04 9A       ]0x0002BBF6:	LDR	R2, [SP, #0X10]	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[53 F8 04 1B ]0x0002BBF8:	LDR	R1, [R3], #4	;(R3=0x100FEA0C )
+(             libc.so[0xCBBEB000])[01 93       ]0x0002BBFC:	STR	R3, [SP, #4]	;(R3=0x100FEA10 SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[F4 F7 E6 ED ]0x0002BBFE:	BLX	#0XCBC0B7CC	;(PC=0xCBC16BFE )
+(             libc.so[0xCBBEB000])[07 C0 A0 E1 ]0x000207CC:	MOV	IP, R7 ; __fcntl64	;(R7=0x00000000 )
+(             libc.so[0xCBBEB000])[DD 70 A0 E3 ]0x000207D0:	MOV	R7, #0XDD
+(             libc.so[0xCBBEB000])[00 00 00 EF ]0x000207D4:	SVC	#0	;(PC=0xCBC0B7D4 )
+(             libc.so[0xCBBEB000])[0C 70 A0 E1 ]0x000207D8:	MOV	R7, IP	;(IP=0x00000000 )
+(             libc.so[0xCBBEB000])[01 0A 70 E3 ]0x000207DC:	CMN	R0, #0X1000	;(R0=0x00000000 )
+(             libc.so[0xCBBEB000])[1E FF 2F 91 ]0x000207E0:	BXLS	LR
+(             libc.so[0xCBBEB000])[BD E8 0C 40 ]0x0002BC02:	POP.W	{R2, R3, LR}	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[03 B0       ]0x0002BC06:	ADD	SP, #0XC	;(SP=0x100FEA0C )
+(             libc.so[0xCBBEB000])[70 47       ]0x0002BC08:	BX	LR	;(LR=0xCBC194E5 )
+(             libc.so[0xCBBEB000])[00 28       ]0x0002E4E4:	CMP	R0, #0	;(R0=0x00000000 )
+(             libc.so[0xCBBEB000])[51 DB       ]0x0002E4E6:	BLT	#0XCBC1958C
+(             libc.so[0xCBBEB000])[01 26       ]0x0002E4E8:	MOVS	R6, #1
+(             libc.so[0xCBBEB000])[0C E0       ]0x0002E4EA:	B	#0XCBC19506
+(             libc.so[0xCBBEB000])[28 46       ]0x0002E506:	MOV	R0, R5	;(R5=0x0000000A )
+(             libc.so[0xCBBEB000])[02 A9       ]0x0002E508:	ADD	R1, SP, #8	;(SP=0x100FEA18 )
+(             libc.so[0xCBBEB000])[F2 F7 D8 EA ]0x0002E50A:	BLX	#0XCBC0BABC	;(PC=0xCBC1950A )
+(             libc.so[0xCBBEB000])[07 C0 A0 E1 ]0x00020ABC:	MOV	IP, R7 ; fstat	;(R7=0x00000000 )
+(             libc.so[0xCBBEB000])[C5 70 A0 E3 ]0x00020AC0:	MOV	R7, #0XC5
+(             libc.so[0xCBBEB000])[00 00 00 EF ]0x00020AC4:	SVC	#0	;(PC=0xCBC0BAC4 )
+(             libc.so[0xCBBEB000])[0C 70 A0 E1 ]0x00020AC8:	MOV	R7, IP	;(IP=0x00000000 )
+(             libc.so[0xCBBEB000])[01 0A 70 E3 ]0x00020ACC:	CMN	R0, #0X1000	;(R0=0x0000000A )
+(             libc.so[0xCBBEB000])[1E FF 2F 91 ]0x00020AD0:	BXLS	LR
+(             libc.so[0xCBBEB000])[00 28       ]0x0002E50E:	CMP	R0, #0	;(R0=0x0000000A )
+(             libc.so[0xCBBEB000])[00 DA       ]0x0002E510:	BGE	#0XCBC19514
+(             libc.so[0xCBBEB000])[08 98       ]0x0002E514:	LDR	R0, [SP, #0X20]	;(SP=0x100FEA18 )
+(             libc.so[0xCBBEB000])[60 BB       ]0x0002E516:	CBNZ	R0, #0XCBC19572	;(R0=0x00002727 )
+(             libc.so[0xCBBEB000])[4F F0 FF 34 ]0x0002E572:	MOV.W	R4, #-1
+(             libc.so[0xCBBEB000])[07 E0       ]0x0002E576:	B	#0XCBC19588
+(             libc.so[0xCBBEB000])[66 B1       ]0x0002E588:	CBZ	R6, #0XCBC195A4	;(R6=0x00000001 )
+(             libc.so[0xCBBEB000])[01 E0       ]0x0002E58A:	B	#0XCBC19590
+(             libc.so[0xCBBEB000])[28 46       ]0x0002E590:	MOV	R0, R5	;(R5=0x0000000A )
+(             libc.so[0xCBBEB000])[F1 F7 FE EE ]0x0002E592:	BLX	#0XCBC0B390	;(PC=0xCBC19592 )
+(             libc.so[0xCBBEB000])[07 C0 A0 E1 ]0x00020390:	MOV	IP, R7 ; close	;(R7=0x00000000 )
+(             libc.so[0xCBBEB000])[06 70 A0 E3 ]0x00020394:	MOV	R7, #6
+(             libc.so[0xCBBEB000])[00 00 00 EF ]0x00020398:	SVC	#0	;(PC=0xCBC0B398 )
+(             libc.so[0xCBBEB000])[0C 70 A0 E1 ]0x0002039C:	MOV	R7, IP	;(IP=0x00000000 )
+(             libc.so[0xCBBEB000])[01 0A 70 E3 ]0x000203A0:	CMN	R0, #0X1000	;(R0=0x00000000 )
+(             libc.so[0xCBBEB000])[1E FF 2F 91 ]0x000203A4:	BXLS	LR
+(             libc.so[0xCBBEB000])[05 E0       ]0x0002E596:	B	#0XCBC195A4
+(             libc.so[0xCBBEB000])[20 46       ]0x0002E5A4:	MOV	R0, R4	;(R4=0xFFFFFFFF )
+(             libc.so[0xCBBEB000])[1D B0       ]0x0002E5A6:	ADD	SP, #0X74	;(SP=0x100FEA18 )
+(             libc.so[0xCBBEB000])[F0 BD       ]0x0002E5A8:	POP	{R4, R5, R6, R7, PC}	;(SP=0x100FEA8C )
+(             libc.so[0xCBBEB000])[FF F7 B0 FF ]0x0000E308:	BL	#0XCBBF926C	;(PC=0xCBBF9308 )
+(             libc.so[0xCBBEB000])[70 B5       ]0x0000E26C:	PUSH	{R4, R5, R6, LR}	;(SP=0x100FEAA0 R4=0x00000000 R5=0x00000000 R6=0x00000000 LR=0xCBBF930D )
+(             libc.so[0xCBBEB000])[9A B0       ]0x0000E26E:	SUB	SP, #0X68	;(SP=0x100FEA90 )
+(             libc.so[0xCBBEB000])[19 4D       ]0x0000E270:	LDR	R5, [PC, #0X64]	;(PC=0xCBBF9270 )
+(             libc.so[0xCBBEB000])[02 A9       ]0x0000E272:	ADD	R1, SP, #8	;(SP=0x100FEA28 )
+(             libc.so[0xCBBEB000])[19 4B       ]0x0000E274:	LDR	R3, [PC, #0X64]	;(PC=0xCBBF9274 )
+(             libc.so[0xCBBEB000])[7D 44       ]0x0000E276:	ADD	R5, PC	;(R5=0x0003BD5E PC=0xCBBF9276 )
+(             libc.so[0xCBBEB000])[EC 58       ]0x0000E278:	LDR	R4, [R5, R3]	;(R5=0xCBC34FD8 R3=0xFFFFFF4C )
+(             libc.so[0xCBBEB000])[20 68       ]0x0000E27A:	LDR	R0, [R4]	;(R4=0xCBC39384 )
+(             libc.so[0xCBBEB000])[26 46       ]0x0000E27C:	MOV	R6, R4	;(R4=0xCBC39384 )
+(             libc.so[0xCBBEB000])[19 90       ]0x0000E27E:	STR	R0, [SP, #0X64]	;(R0=0x00001000 SP=0x100FEA28 )
+(             libc.so[0xCBBEB000])[17 48       ]0x0000E280:	LDR	R0, [PC, #0X5C]	;(PC=0xCBBF9280 )
+(             libc.so[0xCBBEB000])[78 44       ]0x0000E282:	ADD	R0, PC	;(R0=0x0003195E PC=0xCBBF9282 )
+(             libc.so[0xCBBEB000])[20 F0 F2 F9 ]0x0000E284:	BL	#0XCBC1966C	;(PC=0xCBBF9284 )
+(             libc.so[0xCBBEB000])[10 B5       ]0x0002E66C:	PUSH	{R4, LR}	;(SP=0x100FEA28 R4=0xCBC39384 LR=0xCBBF9289 )
+(             libc.so[0xCBBEB000])[0C 46       ]0x0002E66E:	MOV	R4, R1	;(R1=0x100FEA30 )
+(             libc.so[0xCBBEB000])[FF F7 B0 FF ]0x0002E670:	BL	#0XCBC195D4	;(PC=0xCBC19670 )
+(             libc.so[0xCBBEB000])[0D 4B       ]0x0002E5D4:	LDR	R3, [PC, #0X34] ; __system_property_find	;(PC=0xCBC195D4 )
+(             libc.so[0xCBBEB000])[73 B5       ]0x0002E5D6:	PUSH	{R0, R1, R4, R5, R6, LR}	;(SP=0x100FEA20 R0=0xCBC2ABE4 R1=0x100FEA30 R4=0x100FEA30 R5=0xCBC34FD8 R6=0xCBC39384 LR=0xCBC19675 )
+(             libc.so[0xCBBEB000])[7B 44       ]0x0002E5D8:	ADD	R3, PC	;(R3=0x00029F26 PC=0xCBC195D8 )
+(             libc.so[0xCBBEB000])[05 46       ]0x0002E5DA:	MOV	R5, R0	;(R0=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[1C 78       ]0x0002E5DC:	LDRB	R4, [R3]	;(R3=0xCBC43502 )
+(             libc.so[0xCBBEB000])[24 B1       ]0x0002E5DE:	CBZ	R4, #0XCBC195EA	;(R4=0x00000000 )
+(             libc.so[0xCBBEB000])[20 46       ]0x0002E5EA:	MOV	R0, R4	;(R4=0x00000000 )
+(             libc.so[0xCBBEB000])[FF F7 F0 FD ]0x0002E5EC:	BL	#0XCBC191D0	;(PC=0xCBC195EC )
+(             libc.so[0xCBBEB000])[09 4B       ]0x0002E1D0:	LDR	R3, [PC, #0X24]	;(PC=0xCBC191D0 )
+(             libc.so[0xCBBEB000])[82 B0       ]0x0002E1D2:	SUB	SP, #8	;(SP=0x100FEA08 )
+(             libc.so[0xCBBEB000])[09 49       ]0x0002E1D4:	LDR	R1, [PC, #0X24]	;(PC=0xCBC191D4 )
+(             libc.so[0xCBBEB000])[7B 44       ]0x0002E1D6:	ADD	R3, PC	;(R3=0x0001BDFE PC=0xCBC191D6 )
+(             libc.so[0xCBBEB000])[01 90       ]0x0002E1D8:	STR	R0, [SP, #4]	;(R0=0x00000000 SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[01 9A       ]0x0002E1DA:	LDR	R2, [SP, #4]	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[5B 58       ]0x0002E1DC:	LDR	R3, [R3, R1]	;(R3=0xCBC34FD8 R1=0xFFFFFFC4 )
+(             libc.so[0xCBBEB000])[18 68       ]0x0002E1DE:	LDR	R0, [R3]	;(R3=0xCBC45F1C )
+(             libc.so[0xCBBEB000])[82 42       ]0x0002E1E0:	CMP	R2, R0	;(R2=0x00000000 R0=0x00000000 )
+(             libc.so[0xCBBEB000])[06 D8       ]0x0002E1E2:	BHI	#0XCBC191F2
+(             libc.so[0xCBBEB000])[06 49       ]0x0002E1E4:	LDR	R1, [PC, #0X18]	;(PC=0xCBC191E4 )
+(             libc.so[0xCBBEB000])[01 9A       ]0x0002E1E6:	LDR	R2, [SP, #4]	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[79 44       ]0x0002E1E8:	ADD	R1, PC	;(R1=0x0002A318 PC=0xCBC191E8 )
+(             libc.so[0xCBBEB000])[80 32       ]0x0002E1EA:	ADDS	R2, #0X80	;(R2=0x00000000 )
+(             libc.so[0xCBBEB000])[0B 68       ]0x0002E1EC:	LDR	R3, [R1]	;(R1=0xCBC43504 )
+(             libc.so[0xCBBEB000])[98 18       ]0x0002E1EE:	ADDS	R0, R3, R2	;(R3=0x00000000 R2=0x00000080 )
+(             libc.so[0xCBBEB000])[00 E0       ]0x0002E1F0:	B	#0XCBC191F4
+(             libc.so[0xCBBEB000])[02 B0       ]0x0002E1F4:	ADD	SP, #8	;(SP=0x100FEA00 )
+(             libc.so[0xCBBEB000])[70 47       ]0x0002E1F6:	BX	LR	;(LR=0xCBC195F1 )
+(             libc.so[0xCBBEB000])[06 46       ]0x0002E5F0:	MOV	R6, R0	;(R0=0x00000080 )
+(             libc.so[0xCBBEB000])[28 46       ]0x0002E5F2:	MOV	R0, R5	;(R5=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[F4 F7 C6 FC ]0x0002E5F4:	BL	#0XCBC0DF84	;(PC=0xCBC195F4 )
+(             libc.so[0xCBBEB000])[90 F8 00 F0 ]0x00022F84:	PLD	[R0] ; strlen	;(R0=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[01 46       ]0x00022F88:	MOV	R1, R0	;(R0=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[10 F0 07 03 ]0x00022F8A:	ANDS	R3, R0, #7	;(R0=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[00 F0 23 80 ]0x00022F8E:	BEQ.W	#0XCBC0DFD8
+(             libc.so[0xCBBEB000])[C3 F1 08 03 ]0x00022F92:	RSB.W	R3, R3, #8	;(R3=0x00000004 )
+(             libc.so[0xCBBEB000])[5F EA C3 7C ]0x00022F96:	LSLS.W	IP, R3, #0X1F	;(R3=0x00000004 )
+(             libc.so[0xCBBEB000])[00 F0 03 80 ]0x00022F9A:	BEQ.W	#0XCBC0DFA4
+(             libc.so[0xCBBEB000])[C0 F0 0A 80 ]0x00022FA4:	BLO.W	#0XCBC0DFBC
+(             libc.so[0xCBBEB000])[13 F0 04 0F ]0x00022FBC:	TST.W	R3, #4	;(R3=0x00000004 )
+(             libc.so[0xCBBEB000])[00 F0 0A 80 ]0x00022FC0:	BEQ.W	#0XCBC0DFD8
+(             libc.so[0xCBBEB000])[51 F8 04 3B ]0x00022FC4:	LDR	R3, [R1], #4	;(R1=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[A3 F1 01 3C ]0x00022FC8:	SUB.W	IP, R3, #0X1010101	;(R3=0x75626564 )
+(             libc.so[0xCBBEB000])[2C EA 03 0C ]0x00022FCC:	BIC.W	IP, IP, R3	;(IP=0x74616463 R3=0x75626564 )
+(             libc.so[0xCBBEB000])[1C F0 80 3C ]0x00022FD0:	ANDS	IP, IP, #0X80808080	;(IP=0x00010003 )
+(             libc.so[0xCBBEB000])[40 F0 33 80 ]0x00022FD4:	BNE.W	#0XCBC0E03E
+(             libc.so[0xCBBEB000])[F1 E8 02 23 ]0x00022FD8:	LDRD	R2, R3, [R1], #8	;(R1=0xCBC2ABE8 )
+(             libc.so[0xCBBEB000])[91 F8 40 F0 ]0x00022FDC:	PLD	[R1, #0X40]	;(R1=0xCBC2ABF0 )
+(             libc.so[0xCBBEB000])[A2 F1 01 3C ]0x00022FE0:	SUB.W	IP, R2, #0X1010101	;(R2=0x696C2E67 )
+(             libc.so[0xCBBEB000])[2C EA 02 0C ]0x00022FE4:	BIC.W	IP, IP, R2	;(IP=0x686B2D66 R2=0x696C2E67 )
+(             libc.so[0xCBBEB000])[1C F0 80 3C ]0x00022FE8:	ANDS	IP, IP, #0X80808080	;(IP=0x00030100 )
+(             libc.so[0xCBBEB000])[40 F0 0F 80 ]0x00022FEC:	BNE.W	#0XCBC0E00E
+(             libc.so[0xCBBEB000])[A3 F1 01 3C ]0x00022FF0:	SUB.W	IP, R3, #0X1010101	;(R3=0x702E6362 )
+(             libc.so[0xCBBEB000])[2C EA 03 0C ]0x00022FF4:	BIC.W	IP, IP, R3	;(IP=0x6F2D6261 R3=0x702E6362 )
+(             libc.so[0xCBBEB000])[1C F0 80 3C ]0x00022FF8:	ANDS	IP, IP, #0X80808080	;(IP=0x0F010001 )
+(             libc.so[0xCBBEB000])[40 F0 1F 80 ]0x00022FFC:	BNE.W	#0XCBC0E03E
+(             libc.so[0xCBBEB000])[FF F7 EA BF ]0x00023000:	B.W	#0XCBC0DFD8
+(             libc.so[0xCBBEB000])[F1 E8 02 23 ]0x00022FD8:	LDRD	R2, R3, [R1], #8	;(R1=0xCBC2ABF0 )
+(             libc.so[0xCBBEB000])[91 F8 40 F0 ]0x00022FDC:	PLD	[R1, #0X40]	;(R1=0xCBC2ABF8 )
+(             libc.so[0xCBBEB000])[A2 F1 01 3C ]0x00022FE0:	SUB.W	IP, R2, #0X1010101	;(R2=0x65726874 )
+(             libc.so[0xCBBEB000])[2C EA 02 0C ]0x00022FE4:	BIC.W	IP, IP, R2	;(IP=0x64716773 R2=0x65726874 )
+(             libc.so[0xCBBEB000])[1C F0 80 3C ]0x00022FE8:	ANDS	IP, IP, #0X80808080	;(IP=0x00010703 )
+(             libc.so[0xCBBEB000])[40 F0 0F 80 ]0x00022FEC:	BNE.W	#0XCBC0E00E
+(             libc.so[0xCBBEB000])[A3 F1 01 3C ]0x00022FF0:	SUB.W	IP, R3, #0X1010101	;(R3=0x70006461 )
+(             libc.so[0xCBBEB000])[2C EA 03 0C ]0x00022FF4:	BIC.W	IP, IP, R3	;(IP=0x6EFF6360 R3=0x70006461 )
+(             libc.so[0xCBBEB000])[1C F0 80 3C ]0x00022FF8:	ANDS	IP, IP, #0X80808080	;(IP=0x0EFF0300 )
+(             libc.so[0xCBBEB000])[40 F0 1F 80 ]0x00022FFC:	BNE.W	#0XCBC0E03E
+(             libc.so[0xCBBEB000])[A1 EB 00 00 ]0x0002303E:	SUB.W	R0, R1, R0	;(R1=0xCBC2ABF8 R0=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[5F EA 4C 43 ]0x00023042:	LSLS.W	R3, IP, #0X11	;(IP=0x00800000 )
+(             libc.so[0xCBBEB000])[40 F0 09 80 ]0x00023046:	BNE.W	#0XCBC0E05C
+(             libc.so[0xCBBEB000])[80 F0 0A 80 ]0x0002304A:	BHS.W	#0XCBC0E062
+(             libc.so[0xCBBEB000])[5F EA 4C 0C ]0x0002304E:	LSLS.W	IP, IP, #1	;(IP=0x00800000 )
+(             libc.so[0xCBBEB000])[40 F0 09 80 ]0x00023052:	BNE.W	#0XCBC0E068
+(             libc.so[0xCBBEB000])[A0 F1 02 00 ]0x00023068:	SUB.W	R0, R0, #2	;(R0=0x00000014 )
+(             libc.so[0xCBBEB000])[70 47       ]0x0002306C:	BX	LR	;(LR=0xCBC195F9 )
+(             libc.so[0xCBBEB000])[00 94       ]0x0002E5F8:	STR	R4, [SP]	;(R4=0x00000000 SP=0x100FEA08 )
+(             libc.so[0xCBBEB000])[01 94       ]0x0002E5FA:	STR	R4, [SP, #4]	;(R4=0x00000000 SP=0x100FEA08 )
+(             libc.so[0xCBBEB000])[29 46       ]0x0002E5FC:	MOV	R1, R5	;(R5=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[23 46       ]0x0002E5FE:	MOV	R3, R4	;(R4=0x00000000 )
+(             libc.so[0xCBBEB000])[C2 B2       ]0x0002E600:	UXTB	R2, R0	;(R0=0x00000012 )
+(             libc.so[0xCBBEB000])[30 46       ]0x0002E602:	MOV	R0, R6	;(R6=0x00000080 )
+(             libc.so[0xCBBEB000])[FF F7 57 FE ]0x0002E604:	BL	#0XCBC192B6	;(PC=0xCBC19604 )
+(             libc.so[0xCBBEB000])[2D E9 F0 4F ]0x0002E2B6:	PUSH.W	{R4, R5, R6, R7, R8, SB, SL, FP, LR}	;(SP=0x100FEA08 R4=0x00000000 R5=0xCBC2ABE4 R6=0x00000080 R7=0x00000000 R8=0x00000000 SB=0x00000000 SL=0x00000000 FP=0x00000000 LR=0xCBC19609 )
+(             libc.so[0xCBBEB000])[85 B0       ]0x0002E2BA:	SUB	SP, #0X14	;(SP=0x100FE9E4 )
+(             libc.so[0xCBBEB000])[06 46       ]0x0002E2BC:	MOV	R6, R0	;(R0=0x00000080 )
+(             libc.so[0xCBBEB000])[91 46       ]0x0002E2BE:	MOV	SB, R2	;(R2=0x00000012 )
+(             libc.so[0xCBBEB000])[9D F8 38 80 ]0x0002E2C0:	LDRB.W	R8, [SP, #0X38]	;(SP=0x100FE9D0 )
+(             libc.so[0xCBBEB000])[0C 46       ]0x0002E2C4:	MOV	R4, R1	;(R1=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[9D F8 3C 70 ]0x0002E2C6:	LDRB.W	R7, [SP, #0X3C]	;(SP=0x100FE9D0 )
+(             libc.so[0xCBBEB000])[00 91       ]0x0002E2CA:	STR	R1, [SP]	;(R1=0xCBC2ABE4 SP=0x100FE9D0 )
+(             libc.so[0xCBBEB000])[01 93       ]0x0002E2CC:	STR	R3, [SP, #4]	;(R3=0x00000000 SP=0x100FE9D0 )
+(             libc.so[0xCBBEB000])[2E 21       ]0x0002E2CE:	MOVS	R1, #0X2E
+(             libc.so[0xCBBEB000])[20 46       ]0x0002E2D0:	MOV	R0, R4	;(R4=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[F4 F7 D6 FF ]0x0002E2D2:	BL	#0XCBC0E282	;(PC=0xCBC192D2 )
+(             libc.so[0xCBBEB000])[4F F0 FF 32 ]0x00023282:	MOV.W	R2, #-1 ; strchr
+(             libc.so[0xCBBEB000])[FF F7 19 BF ]0x00023286:	B.W	#0XCBC0E0BC
+(             libc.so[0xCBBEB000])[82 18       ]0x000230BC:	ADDS	R2, R0, R2 ; __strchr_chk	;(R0=0xCBC2ABE4 R2=0xFFFFFFFF )
+(             libc.so[0xCBBEB000])[C9 B2       ]0x000230BE:	UXTB	R1, R1	;(R1=0x0000002E )
+(             libc.so[0xCBBEB000])[03 46       ]0x000230C0:	MOV	R3, R0	;(R0=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[10 B5       ]0x000230C2:	PUSH	{R4, LR}	;(SP=0x100FE9D0 R4=0xCBC2ABE4 LR=0xCBC192D7 )
+(             libc.so[0xCBBEB000])[93 42       ]0x000230C4:	CMP	R3, R2	;(R3=0xCBC2ABE4 R2=0xCBC2ABE3 )
+(             libc.so[0xCBBEB000])[18 46       ]0x000230C6:	MOV	R0, R3	;(R3=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[09 D0       ]0x000230C8:	BEQ	#0XCBC0E0DE
+(             libc.so[0xCBBEB000])[03 E0       ]0x000230CA:	B	#0XCBC0E0D4
+(             libc.so[0xCBBEB000])[1C 78       ]0x000230D4:	LDRB	R4, [R3]	;(R3=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[01 33       ]0x000230D6:	ADDS	R3, #1	;(R3=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[8C 42       ]0x000230D8:	CMP	R4, R1	;(R4=0x00000064 R1=0x0000002E )
+(             libc.so[0xCBBEB000])[F7 D1       ]0x000230DA:	BNE	#0XCBC0E0CC
+(             libc.so[0xCBBEB000])[00 2C       ]0x000230CC:	CMP	R4, #0	;(R4=0x00000064 )
+(             libc.so[0xCBBEB000])[F9 D1       ]0x000230CE:	BNE	#0XCBC0E0C4
+(             libc.so[0xCBBEB000])[93 42       ]0x000230C4:	CMP	R3, R2	;(R3=0xCBC2ABE5 R2=0xCBC2ABE3 )
+(             libc.so[0xCBBEB000])[18 46       ]0x000230C6:	MOV	R0, R3	;(R3=0xCBC2ABE5 )
+(             libc.so[0xCBBEB000])[09 D0       ]0x000230C8:	BEQ	#0XCBC0E0DE
+(             libc.so[0xCBBEB000])[03 E0       ]0x000230CA:	B	#0XCBC0E0D4
+(             libc.so[0xCBBEB000])[1C 78       ]0x000230D4:	LDRB	R4, [R3]	;(R3=0xCBC2ABE5 )
+(             libc.so[0xCBBEB000])[01 33       ]0x000230D6:	ADDS	R3, #1	;(R3=0xCBC2ABE5 )
+(             libc.so[0xCBBEB000])[8C 42       ]0x000230D8:	CMP	R4, R1	;(R4=0x00000065 R1=0x0000002E )
+(             libc.so[0xCBBEB000])[F7 D1       ]0x000230DA:	BNE	#0XCBC0E0CC
+(             libc.so[0xCBBEB000])[00 2C       ]0x000230CC:	CMP	R4, #0	;(R4=0x00000065 )
+(             libc.so[0xCBBEB000])[F9 D1       ]0x000230CE:	BNE	#0XCBC0E0C4
+(             libc.so[0xCBBEB000])[93 42       ]0x000230C4:	CMP	R3, R2	;(R3=0xCBC2ABE6 R2=0xCBC2ABE3 )
+(             libc.so[0xCBBEB000])[18 46       ]0x000230C6:	MOV	R0, R3	;(R3=0xCBC2ABE6 )
+(             libc.so[0xCBBEB000])[09 D0       ]0x000230C8:	BEQ	#0XCBC0E0DE
+(             libc.so[0xCBBEB000])[03 E0       ]0x000230CA:	B	#0XCBC0E0D4
+(             libc.so[0xCBBEB000])[1C 78       ]0x000230D4:	LDRB	R4, [R3]	;(R3=0xCBC2ABE6 )
+(             libc.so[0xCBBEB000])[01 33       ]0x000230D6:	ADDS	R3, #1	;(R3=0xCBC2ABE6 )
+(             libc.so[0xCBBEB000])[8C 42       ]0x000230D8:	CMP	R4, R1	;(R4=0x00000062 R1=0x0000002E )
+(             libc.so[0xCBBEB000])[F7 D1       ]0x000230DA:	BNE	#0XCBC0E0CC
+(             libc.so[0xCBBEB000])[00 2C       ]0x000230CC:	CMP	R4, #0	;(R4=0x00000062 )
+(             libc.so[0xCBBEB000])[F9 D1       ]0x000230CE:	BNE	#0XCBC0E0C4
+(             libc.so[0xCBBEB000])[93 42       ]0x000230C4:	CMP	R3, R2	;(R3=0xCBC2ABE7 R2=0xCBC2ABE3 )
+(             libc.so[0xCBBEB000])[18 46       ]0x000230C6:	MOV	R0, R3	;(R3=0xCBC2ABE7 )
+(             libc.so[0xCBBEB000])[09 D0       ]0x000230C8:	BEQ	#0XCBC0E0DE
+(             libc.so[0xCBBEB000])[03 E0       ]0x000230CA:	B	#0XCBC0E0D4
+(             libc.so[0xCBBEB000])[1C 78       ]0x000230D4:	LDRB	R4, [R3]	;(R3=0xCBC2ABE7 )
+(             libc.so[0xCBBEB000])[01 33       ]0x000230D6:	ADDS	R3, #1	;(R3=0xCBC2ABE7 )
+(             libc.so[0xCBBEB000])[8C 42       ]0x000230D8:	CMP	R4, R1	;(R4=0x00000075 R1=0x0000002E )
+(             libc.so[0xCBBEB000])[F7 D1       ]0x000230DA:	BNE	#0XCBC0E0CC
+(             libc.so[0xCBBEB000])[00 2C       ]0x000230CC:	CMP	R4, #0	;(R4=0x00000075 )
+(             libc.so[0xCBBEB000])[F9 D1       ]0x000230CE:	BNE	#0XCBC0E0C4
+(             libc.so[0xCBBEB000])[93 42       ]0x000230C4:	CMP	R3, R2	;(R3=0xCBC2ABE8 R2=0xCBC2ABE3 )
+(             libc.so[0xCBBEB000])[18 46       ]0x000230C6:	MOV	R0, R3	;(R3=0xCBC2ABE8 )
+(             libc.so[0xCBBEB000])[09 D0       ]0x000230C8:	BEQ	#0XCBC0E0DE
+(             libc.so[0xCBBEB000])[03 E0       ]0x000230CA:	B	#0XCBC0E0D4
+(             libc.so[0xCBBEB000])[1C 78       ]0x000230D4:	LDRB	R4, [R3]	;(R3=0xCBC2ABE8 )
+(             libc.so[0xCBBEB000])[01 33       ]0x000230D6:	ADDS	R3, #1	;(R3=0xCBC2ABE8 )
+(             libc.so[0xCBBEB000])[8C 42       ]0x000230D8:	CMP	R4, R1	;(R4=0x00000067 R1=0x0000002E )
+(             libc.so[0xCBBEB000])[F7 D1       ]0x000230DA:	BNE	#0XCBC0E0CC
+(             libc.so[0xCBBEB000])[00 2C       ]0x000230CC:	CMP	R4, #0	;(R4=0x00000067 )
+(             libc.so[0xCBBEB000])[F9 D1       ]0x000230CE:	BNE	#0XCBC0E0C4
+(             libc.so[0xCBBEB000])[93 42       ]0x000230C4:	CMP	R3, R2	;(R3=0xCBC2ABE9 R2=0xCBC2ABE3 )
+(             libc.so[0xCBBEB000])[18 46       ]0x000230C6:	MOV	R0, R3	;(R3=0xCBC2ABE9 )
+(             libc.so[0xCBBEB000])[09 D0       ]0x000230C8:	BEQ	#0XCBC0E0DE
+(             libc.so[0xCBBEB000])[03 E0       ]0x000230CA:	B	#0XCBC0E0D4
+(             libc.so[0xCBBEB000])[1C 78       ]0x000230D4:	LDRB	R4, [R3]	;(R3=0xCBC2ABE9 )
+(             libc.so[0xCBBEB000])[01 33       ]0x000230D6:	ADDS	R3, #1	;(R3=0xCBC2ABE9 )
+(             libc.so[0xCBBEB000])[8C 42       ]0x000230D8:	CMP	R4, R1	;(R4=0x0000002E R1=0x0000002E )
+(             libc.so[0xCBBEB000])[F7 D1       ]0x000230DA:	BNE	#0XCBC0E0CC
+(             libc.so[0xCBBEB000])[10 BD       ]0x000230DC:	POP	{R4, PC}	;(SP=0x100FE9C8 )
+(             libc.so[0xCBBEB000])[10 F1 00 0B ]0x0002E2D6:	ADDS.W	FP, R0, #0	;(R0=0xCBC2ABE9 )
+(             libc.so[0xCBBEB000])[82 46       ]0x0002E2DA:	MOV	SL, R0	;(R0=0xCBC2ABE9 )
+(             libc.so[0xCBBEB000])[BB F1 00 0F ]0x0002E2E2:	CMP.W	FP, #0	;(FP=0x00000001 )
+(             libc.so[0xCBBEB000])[02 D0       ]0x0002E2E6:	BEQ	#0XCBC192EE
+(             libc.so[0xCBBEB000])[05 1B       ]0x0002E2E8:	SUBS	R5, R0, R4	;(R0=0xCBC2ABE9 R4=0xCBC2ABE4 )
+(             libc.so[0xCBBEB000])[ED B2       ]0x0002E2EA:	UXTB	R5, R5	;(R5=0x00000005 )
+(             libc.so[0xCBBEB000])[03 E0       ]0x0002E2EC:	B	#0XCBC192F6
+(             libc.so[0xCBBEB000])[05 B9       ]0x0002E2F6:	CBNZ	R5, #0XCBC192FA	;(R5=0x00000005 )
+(             libc.so[0xCBBEB000])[33 69       ]0x0002E2FA:	LDR	R3, [R6, #0X10]	;(R6=0x00000080 )
