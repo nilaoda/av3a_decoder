@@ -2,6 +2,8 @@ from tqdm import tqdm
 import os
 import sys
 
+AV3A_START = bytes.fromhex('FFF2')
+
 def extract_pes_payload(input_file, output_file, pid):
     with open(input_file, 'rb') as f, open(output_file, 'wb') as out_file:
         pes_data = bytearray()
@@ -24,12 +26,13 @@ def extract_pes_payload(input_file, output_file, pid):
 
                     if adaptation_field_control == 3:
                         adaptation_field_length = chunk[4]
-                        pes_header_length = 4 + 6 + 8 + 1 + adaptation_field_length
+                        pes_header_length = 4 + 6 + 1 + adaptation_field_length
                     elif adaptation_field_control == 1:
-                        pes_header_length = 4 + 6 + 8
+                        pes_header_length = 4 + 6
 
                     if payload_unit_start_indicator == 1:
-                        pes_data += chunk[pes_header_length:]
+                        to_skip_len = chunk[pes_header_length:].index(AV3A_START)
+                        pes_data += chunk[pes_header_length+to_skip_len:]
                     elif adaptation_field_length > 0:
                         pes_data += chunk[4+1+adaptation_field_length:]
                     else:
