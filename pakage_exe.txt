@@ -1,0 +1,20 @@
+nuitka --standalone --output-dir=dist --show-progress --onefile ^
+--assume-yes-for-downloads ^
+--include-package=ExAndroidNativeEmu.androidemu.emulator ^
+--include-data-files=libavs3a_decoder.so=libavs3a_decoder.so ^
+--include-data-files=C:\Users\name\AppData\Local\Programs\Python\Python311\Lib/site-packages/unicorn/lib/unicorn.dll=unicorn/lib/unicorn.dll ^
+--include-data-files=C:\Users\name\AppData\Local\Programs\Python\Python311\Lib/site-packages/capstone/lib/capstone.dll=capstone/lib/capstone.dll ^
+--include-data-files=ExAndroidNativeEmu/emu_cfg/default.json=ExAndroidNativeEmu/emu_cfg/default.json ^
+--include-data-dir=ExAndroidNativeEmu/vfs=ExAndroidNativeEmu/vfs ^
+--include-data-files=ExAndroidNativeEmu/vfs/system/lib/libdl.so=ExAndroidNativeEmu/vfs/system/lib/libdl.so ^
+--include-data-files=ExAndroidNativeEmu/vfs/system/lib/libc.so=ExAndroidNativeEmu/vfs/system/lib/libc.so ^
+--include-data-files=ExAndroidNativeEmu/vfs/system/lib/libstdc++.so=ExAndroidNativeEmu/vfs/system/lib/libstdc++.so ^
+--include-data-files=ExAndroidNativeEmu/vfs/system/lib/libm.so=ExAndroidNativeEmu/vfs/system/lib/libm.so ^
+--include-data-files=ExAndroidNativeEmu/vfs/system/lib/liblog.so=ExAndroidNativeEmu/vfs/system/lib/liblog.so ^
+--include-data-files=ExAndroidNativeEmu/vfs/model.bin=ExAndroidNativeEmu/vfs/model.bin ^
+--noinclude-data-files=ExAndroidNativeEmu/vfs/data/* ^
+-o av3a_decoder av3a_decoder.py
+
+nuitka --standalone --output-dir=dist_es --show-progress --onefile ^
+--assume-yes-for-downloads ^
+-o es_extractor es_extractor.py
