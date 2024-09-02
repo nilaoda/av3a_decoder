@@ -1,3 +1,7 @@
+> 2024-09 Project Archived
+> 
+> Due to the leak of the [AV3A codec](https://github.com/yuanshilin/Sourcecodeforplayer/tree/master/av3adecoder) source code, it is now possible to perfectly integrate the decoder into ffmpeg and mpv. Therefore, this project is no longer meaningful.
+
 # av3a_decoder
 AVS3-P3 / Audio Vivid Decoder
 
